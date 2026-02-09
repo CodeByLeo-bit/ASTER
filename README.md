@@ -1,5 +1,7 @@
 # ASTER: Agentic Scaling with Tool-integrated Extended Reasoning
 
+> **Community Implementation**: We thank [Rainyrou](https://github.com/Rainyrou/ASTER) for their community reproduction of this work.
+
 ## 🚀 Overview
 
 ASTER (**A**gentic **S**caling with **T**ool-integrated **E**xtended **R**easoning) is a two-stage framework that combines targeted cold-start supervised fine-tuning with reinforcement learning to scale Tool-Integrated Reasoning (TIR) capabilities in Large Language Models.
@@ -106,5 +108,12 @@ We compare ASTER against state-of-the-art text-only reasoning models and agentic
 If you find our work useful, please consider citing:
 
 ```bibtex
-
+@misc{zhang2026aster,
+  title        = {ASTER: Agentic Scaling with Tool-integrated Extended Reasoning},
+  author       = {Zhang, Xuqin and He, Quan and Zheng, Zhenrui and Zhang, Zongzhang and He, Xu and Li, Dong},
+  year         = {2026},
+  eprint       = {2602.01204},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL}
+}
 ```
