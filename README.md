@@ -1,6 +1,10 @@
 # ASTER: Agentic Scaling with Tool-integrated Extended Reasoning
 
-> **Community Implementation**: We thank [Rainyrou](https://github.com/Rainyrou/ASTER) for their community reproduction of this work.
+## 📢 News
+
+🎉 **Community Reproduction Available!** We are excited to announce that [Rainyrou](https://github.com/Rainyrou/ASTER) has successfully reproduced our work and made their implementation publicly available.
+
+🔗 **Repository**: [**👉 Rainyrou/ASTER**](https://github.com/Rainyrou/ASTER) - Check out their repository for an alternative implementation of ASTER!
 
 ## 🚀 Overview
 
