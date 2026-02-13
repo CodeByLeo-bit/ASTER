@@ -1,6 +1,11 @@
 # ASTER: Agentic Scaling with Tool-integrated Extended Reasoning
 
+
 ## 📢 News
+
+📊 **Experimental Results**: Our experimental results are publicly available on [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFCC00?style=flat-square)](https://wandb.ai/aster_rl/ASTER)
+
+📁 **AIME25 Samples**: AIME25 sampling results with 16 samples per problem: [`./asserts/aime25.jsonl`](./asserts/aime25.jsonl)
 
 🎉 **Community Reproduction Available!** We are excited to announce that [Rainyrou](https://github.com/Rainyrou/ASTER) has successfully reproduced our work and made their implementation publicly available.
 
@@ -93,11 +98,7 @@ We compare ASTER against state-of-the-art text-only reasoning models and agentic
 
 ### Key Advantages
 
-- **Model Efficiency**: Despite being trained from a 4B base model, ASTER-4B achieves 90.0% on AIME 2025, outperforming Qwen3-235B-A22B-Thinking (81.5%) with 235B parameters
-- **Superior to Baselines**: Significantly outperforms frontier open-source models including:
-  - Qwen3-235B-A22B-Thinking (235B)
-  - rStar2-Agent-14B (14B)
-  - DemyAgent-4B (4B)
+- **Model Efficiency**: Despite being trained from a 4B base model, ASTER-4B achieves 90.0% on AIME 2025, outperforming [MiniMax M2.5](https://www.minimax.io/news/minimax-m25)(86.3%)
 - **Inference Scalability**: Performance improves from 85.0% to 90.0% on AIME 2025 as inference budget increases from 30K to 90K, demonstrating that interaction-dense training unlocks scalable agentic intelligence
 
 ## Acknowledgments
